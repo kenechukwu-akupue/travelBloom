@@ -1,0 +1,157 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('https://cdn.pixabay.com/photo/2024/10/06/08/52/ai-generated-9099517_640.jpg');
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow-y: fixed;
+    color: orangered;
+    box-shadow: rgb(red, green, blue);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: gray;
+    color: rgb(207, 200, 214);
+    padding-top: 1%;
+    
+}
+.search_items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: self-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h2, h1{
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+
+
+}
+h3, i{
+    margin-left: 20px;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+.suggestions{
+    position: flex;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo{
+    width: 1.5em;
+    height: 1em;
+    margin-right: 20px;
+}
+nav img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.list_container, .search_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list_items {
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+.list_items:hover{
+    color: aquamarine;
+}
+main, .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: azure;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1em;
+    overflow-y: hidden;
+    position: fixed;
+
+}
+.btn, button{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+}
+main button:hover{
+    background-color: aquamarine;
+}
+
+.about {
+    display: flex;
+
+    flex-direction: column;
+    height: 100vh;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 1.2em;
+    
+}
+
+.team div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    color: blanchedalmond;
+    font-size: 1em;
+    font-weight: 900;
+
+
+}
+
+.form, input, textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+input, textarea{
+    padding: 6px 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    text-transform: capitalize;
+    transition: 0.4s ease-in-out;
+}
+footer{
+    align-items: center;
+    background-color: transparent;
+    color: rgb(32, 230, 18);
+    bottom: 0;
+    position: fixed;
+}
