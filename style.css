@@ -148,7 +148,7 @@ input, textarea{
     text-transform: capitalize;
     transition: 0.4s ease-in-out;
 }
-img{
+.img{
     height: 30%;
     width:100%;
     border-radius:10%;
