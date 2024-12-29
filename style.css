@@ -149,7 +149,7 @@ input, textarea{
     transition: 0.4s ease-in-out;
 }
 .img{
-    height: 20px;
+    height: 90px;
     width: 50%;
     border-radius:10%;
 }
